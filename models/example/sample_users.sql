@@ -62,7 +62,7 @@ where 1 = 1
 select
     _id,
     age,
-    "name",
+    Upper("name"),
     email,
     "location",
     contact_number,
