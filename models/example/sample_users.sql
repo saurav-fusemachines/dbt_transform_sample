@@ -1,7 +1,3 @@
-{{ config (
-    materialized="table"
-)}}
-
   create  table "DataWareHouseX".public."sample_users__dbt_tmp"
   as (
     
