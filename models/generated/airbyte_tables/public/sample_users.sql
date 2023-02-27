@@ -1,8 +1,5 @@
 
 
-  create  table "DataWareHouseX".public."sample_users__dbt_tmp"
-  as (
-    
 with __dbt__cte__sample_users_ab1 as (
 
 -- SQL model to parse JSON blob stored in a single column and extract into separated field columns as described by the JSON Schema
@@ -72,4 +69,3 @@ select
 from __dbt__cte__sample_users_ab3
 -- sample_users from "DataWareHouseX".public._airbyte_raw_sample_users
 where 1 = 1
-  );

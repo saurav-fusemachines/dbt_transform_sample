@@ -1,7 +1,4 @@
 
-
-  create  table "DataWareHouseX".public."sample_users_contact_number__dbt_tmp"
-  as (
     
 with __dbt__cte__sample_users_contact_number_ab1 as (
 
@@ -59,4 +56,3 @@ select
 from __dbt__cte__sample_users_contact_number_ab3
 -- contact_number at sample_users/contact_number from "DataWareHouseX".public."sample_users"
 where 1 = 1
-  );
