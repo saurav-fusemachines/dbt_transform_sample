@@ -58,7 +58,7 @@ select
     _id,
     age,
     UPPER("name"),
-    email,
+    pgp_sym_encrypt(email,'my_secret_key') as email,
     "location",
     contact_number,
     eid_aibyte_transform,
